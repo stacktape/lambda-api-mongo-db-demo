@@ -1,8 +1,8 @@
 providerConfig:
   mongoDbAtlas:
-    publicKey: <<your-mongodb-public-key>>
-    privateKey: <<your-mongodb-private-key>>
-    organizationId: <<your-mongodb-organization-id>>
+    privateKey: $Secret('mongoFullAccessPrivateKey')
+    publicKey: vsnrksqa
+    organizationId: 6027241119807a593cbe63dd
 
 resources:
   mainApiGateway:
